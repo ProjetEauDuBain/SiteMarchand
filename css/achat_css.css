@@ -79,7 +79,7 @@
   
   input#result{
     border: none;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     width: 4em;
   }
