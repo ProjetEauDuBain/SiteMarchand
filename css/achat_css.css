@@ -78,10 +78,12 @@
   }
   
   input#result{
+    padding: 1em;
     text-align: center;
     width: 4em;
   }
   input#plus{
+    padding: 1em;
     background: none;
     text-align: center;
     width: 3em;
@@ -91,6 +93,7 @@
     font-weight: bold;
   }
   input#moins{
+    padding: 1em;
     background: none;
     text-align: center;
     width: 3em;
@@ -108,7 +111,6 @@
 }
 
 .choix_quantite{
-  padding: 1em;
   border: solid;
   border-radius: 2px;
   border-color: gray;
@@ -121,11 +123,11 @@
 }
 
 .acheter{
-    padding: 1em;
     display: flex;
     justify-content: left;
 }
   .acheter input{
+    padding: 1em;
     width: 12.5em;
     border: none;
     border-radius: 0.2em;
