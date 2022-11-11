@@ -47,17 +47,17 @@
   }
 }
 
-h2{
+.flex h2{
     font-size: 3em;
 }
 
-h3{
+.flex h3{
     font-size: 2em;
     margin-bottom: 1em;
     font-weight: lighter;
 }
 
-p{
+.flex p{
     margin-bottom: 3em;
     text-align: justify;
 }
@@ -77,29 +77,29 @@ p{
     cursor: pointer;
   }
 
-input{
+.flex input{
     padding: 1em;
     border: none;
     background: none;
   }
   
-  input#result{
+  .flex input#result{
     text-align: center;
     width: 4em;
   }
-  input#plus{
+  .flex input#plus{
     text-align: center;
     width: 3em;
   }
-  input#plus:hover{
+  .flex input#plus:hover{
     cursor:pointer;
     font-weight: bold;
   }
-  input#moins{
+  .flex input#moins{
     text-align: center;
     width: 3em;
   }
-  input#moins:hover{
+  .flex input#moins:hover{
     cursor:pointer;
     font-weight: bold;
   }
