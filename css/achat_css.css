@@ -76,10 +76,6 @@
   .taille:hover{
     cursor: pointer;
   }
-
-.flex input{
-    border: none;
-  }
   
   input#result{
     text-align: center;
