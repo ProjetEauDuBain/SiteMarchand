@@ -180,4 +180,7 @@ fieldset{
     margin-left: 8em;
     margin-right: 8em;
   }
+  body{
+    margin-left: 0;
+  }
 }
