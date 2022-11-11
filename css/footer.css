@@ -107,7 +107,7 @@
     font-size: 1em;
   }
   footer input {
-    font-size: 1em;
+    font-size: 0,5em;
   }
   
   @media(max-width:899px) {
