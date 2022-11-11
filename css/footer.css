@@ -13,13 +13,13 @@
   overflow-x: hidden; 
   
 }
-div {
+.div {
   float: left;
   height: 100%;
   width: 100%;
   padding: 0 10px;
   }
-h2 {
+.h2 {
   color: #000000;
   text-align: center;
   }
