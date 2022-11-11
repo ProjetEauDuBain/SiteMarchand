@@ -78,11 +78,13 @@
   }
   
   input#result{
+    border: none;
     padding: 1em;
     text-align: center;
     width: 4em;
   }
   input#plus{
+    border: none;
     padding: 1em;
     background: none;
     text-align: center;
@@ -93,6 +95,7 @@
     font-weight: bold;
   }
   input#moins{
+    border: none;
     padding: 1em;
     background: none;
     text-align: center;
