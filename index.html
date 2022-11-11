@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="accueil.html" class="active">Accueil</a>
+  <a href="magasin.html">Magasin</a>
+  <a href="#Stories">Stories</a>
+  <a href="#About">About</a>
+  <a href="#Login" id="right">Login</a>
+  <a href="#Panier" id="right">
+    <img src="img/panier.png" width= "20" height="20">
+  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<center>
+<h1>Accueil</h1>
+<p>Vous aimez l'eau de bain des personnes ? Vous êtes un simp fan de Squeezie ou de votre prof de com ? Vous êtes RICHES ? Alors Eau Du Bain est faite pour VOUS !</p>
+<button onclick="document.location='#ShopAll'">Shop All</button>
+<br><br>
+<img src="img/flacon.png" width = "500" height="500" title="C'est un flacon">
+<br><br>
+</center>
+
+<div class="flex-container">
+
+  <div class="flex-item-1">
+    <img src="img/jdg.png" width="150" height="150" title="Joueur du grenier">
+  </div>
+  <div class="flex-item-2">
+    <img src="img/lui.png" width="150" height="150" title="Un monsieur inconnu au bataillon">
+  </div>
+  <div class="flex-item-4">
+    <img src="img/orelsan.png" width="150" height="150" title="Orelsan">
+  </div>
+  <div class="flex-item-3">
+    <img src="img/hideo.png" width="150" height="150"title="Hideo Kojima">
+  </div>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
