@@ -75,12 +75,12 @@ footer h2 {
   margin-bottom: 5%;
   margin-top: -5%;
 }
-a:link 
+footer a:link 
 { 
  text-decoration:none; 
 }
 
-a::after {
+footer a::after {
   content: '';
   display: block;
   position: relative;
