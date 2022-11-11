@@ -77,10 +77,8 @@
     cursor: pointer;
   }
 
-input{
-    padding: 1em;
+.flex input{
     border: none;
-    background: none;
   }
   
   input#result{
@@ -88,6 +86,7 @@ input{
     width: 4em;
   }
   input#plus{
+    background: none;
     text-align: center;
     width: 3em;
   }
@@ -96,6 +95,7 @@ input{
     font-weight: bold;
   }
   input#moins{
+    background: none;
     text-align: center;
     width: 3em;
   }
@@ -112,6 +112,7 @@ input{
 }
 
 .choix_quantite{
+  padding: 1em;
   border: solid;
   border-radius: 2px;
   border-color: gray;
@@ -124,6 +125,7 @@ input{
 }
 
 .acheter{
+    padding: 1em;
     display: flex;
     justify-content: left;
 }
