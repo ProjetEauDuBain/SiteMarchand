@@ -96,7 +96,7 @@ footer a::after {
 }
 
 
-a:hover:after {
+footer a:hover:after {
   width: 100%;
 }
 
