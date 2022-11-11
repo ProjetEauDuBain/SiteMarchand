@@ -77,7 +77,7 @@
     cursor: pointer;
   }
 
-input{
+.flex input{
     padding: 1em;
     border: none;
     background: none;
