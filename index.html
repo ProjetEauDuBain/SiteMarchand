@@ -1,26 +1,30 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index_style.css">
-  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="accueil.html" class="active">Accueil</a>
+  <a class="active">Accueil</a>
   <a href="magasin.html">Magasin</a>
   <a href="#Stories">Stories</a>
   <a href="#About">About</a>
-  <a href="#Login" id="right">Login</a>
-  <a href="Panier.html" id="right">
+
+  <div class="search-container">
+    <input type="text" placeholder="Rechercher">
+  </div>
+
+  <a href="#Login" class = "right">Login</a>
+  <a href="#Panier" class = "right">
     <img src="img/panier.png" width= "20" height="20">
   </a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
 <center>
 <h1>Accueil</h1>
 <p>Vous aimez l'eau de bain des personnes ? Vous êtes un simp fan de Squeezie ou de votre prof de com ? Vous êtes RICHES ? Alors Eau Du Bain est faite pour VOUS !</p>
@@ -57,41 +61,6 @@ function myFunction() {
   }
 }
 </script>
-    <footer>
-        <div class="footer">
-            <div class="gauche">
-                <h1>Inscrivez vous à notre newsletter </h1>
-                <p>Soyez les premiers informés de nos lancements de nouveaux produits et événements spéciaux</p>
-                <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="25" placeholder="Adresse email">
-                <input type="button" value="S'inscrire">
-            </div>
-            <div id="droite">
-                <div class="column1">
-                  <h2>Shop</h2>
-                  <a href="squeezie.html"><h4>Youtubeurs</h4></a>
-                  <a href="gros_jdg.html"><h4>Streameurs</h4></a>
-                  <a href="paterlini.html"><h4>Professeurs</h4></a>
-                  <a href="keanu-reeves.html"><h4>Acteurs</h4></a>
-                  <a href="orelsan.html"><h4>Rapeurs</h4></a>
-                  <a href="hideo_kojima.html"><h4>créateurs de jeux vidéo</h4></a>
-                </div>
-                <div class="column2">
-                  <h2>Aide</h2>
-                  <a href="#"><h4>Centre d'aide</h4></a>
-                  <a href="#"><h4>Statut de la commande</h4></a>
-                  <a href="#"><h4>Tableau des tailles</h4></a>
-                  <a href="#"><h4>Retours et garanties</h4></a>
-                  <a href="#"><h4>Nous contacter</h4></a>
-             
-                </div>
-                <div class="column3">
-                  <h2>A Propos</h2>
-                  <a href="#"><h4>À propos de nous</h4></a>
-                  <a href="#"><h4>Responsabilité</h4></a>
-                  <a href="#"><h4>Technologies et innovations</h4></a>
-                  <a href="#"><h4>Explorer notre Histoire</h4></a>
-            </div>
-        </div>
-    </footer>
+
 </body>
 </html>
